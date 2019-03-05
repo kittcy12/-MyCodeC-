@@ -7,7 +7,7 @@ int main(){
 	int check=1,count=0;
 	gets(input);
 	int l=strlen(input);
-	strlwr(input);
+	strlwr(input); //optional
 	for(int i=0;i<l;i++)
 		{
 			if(isalpha(input[i]))
